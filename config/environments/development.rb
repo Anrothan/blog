@@ -26,7 +26,7 @@ Rails.application.configure do
     port: 587, 
     authentication: :plain, 
     user_name: "#", 
-    password: "#"
+    password: "test"
   }
 
   # Print deprecation notices to the Rails logger.
