@@ -16,6 +16,19 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 
+  # Default content type should be text/plain
+  # config.action_mailer.default_content_type = 'text/plain'
+
+  # Gmail SMTP server setup
+  ActionMailer::Base.smtp_settings = {
+    address: "smtp.gmail.com",
+    enable_starttls_auto: true, 
+    port: 587, 
+    authentication: :plain, 
+    user_name: "#", 
+    password: "#"
+  }
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
