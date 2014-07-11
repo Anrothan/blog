@@ -1,2 +1,21 @@
 pt-br:
   hello: "Ola mundo"
+
+
+  general:
+    edit: portuguese
+    delete: Yep this is a different language
+    are_you_sure: Are you sure?
+
+  activerecord:
+    errors:
+      models:
+        article:
+          create_success: Article was successfully created.
+          update_success: Article was successfully updated.
+          notify_friend_success: Successfully sent a message to your friend
+          attributes:
+            title:
+              blank: "não pode ficar em branco"
+            body: 
+              blank: "não pode ficar em branco"

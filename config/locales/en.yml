@@ -20,4 +20,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  comments:
+    errors:
+      not_published_yet: is not published yet
+
+  articles:
+    create_success: Article was successfully created.
+    update_success: Article was successfully updated.
+    notify_friend_success: Successfully sent a message to your friend
+
+  general:
+    edit: Edit
+    delete: Delete
+    are_you_sure: Are you sure?
